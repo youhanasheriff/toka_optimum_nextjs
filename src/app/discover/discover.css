@@ -1,0 +1,138 @@
+.discover-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 100%;
+}
+
+.discover-hero > h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.discover-hero > p {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.add-product-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2188f0;
+  color: white;
+  font-size: 1.5rem;
+  padding-inline: 0.7rem;
+  padding-block: 0.45rem;
+  border-radius: 45px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.add-product-btn > img {
+  margin-left: 0.3rem;
+  width: 30px;
+  height: 30px;
+}
+
+.products {
+  width: 100%;
+  background-color: #a4a4a4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding-bottom: 2rem;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 2rem;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.product-container:hover {
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+.product-details {
+
+  display: flex;
+  width: 70%;
+  height:80%;
+}
+
+.product-details img{
+  width: 30%;
+  object-fit:contain;
+}
+
+.tank-details{
+  width: 70%;
+  height: 100%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.tank-details h3{
+  color: #2188f0;
+}
+
+.tank-details h3 span{
+  color: black;
+}
+
+.tank-details hr{
+  width: 70%;
+  border-style: solid;
+  border-width: 3px;
+  color: #2188f0;
+}
+
+.tank-details p{
+  color: #2188f0;
+  margin-right: 10%;
+  padding: 10px 0;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tank-details p span{
+  color: black;
+ 
+}
+
+.tank-details button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2188f0;
+  color: white;
+  font-size: 1.5rem;
+  padding-inline: 0.7rem;
+  padding-block: 0.45rem;
+  border-radius: 30px;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+ 
+  margin-top: 35px;
+}
+
